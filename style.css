@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+}
+header h1{
+    color: blue;
+}
+.devkit_body{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img{
+    width: 100%;
+}
+.btn_1{
+    border: none;
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+}
+.btn_2{
+    border: none;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: skyblue;
+}
+span{
+    color: blue;
+}
